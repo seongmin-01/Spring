@@ -1,4 +1,4 @@
-package kr.co.ch04.config;
+package kr.co.ch05.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -7,8 +7,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@Configuration
-@ComponentScan(basePackages = {"kr.co.ch04"})
+@Configuration // 설정파일임을 명시
+@ComponentScan(basePackages = {"kr.co.ch05"})
 @EnableWebMvc
 public class AppConfig implements WebMvcConfigurer {
 

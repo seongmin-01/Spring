@@ -1,4 +1,4 @@
-package kr.co.ch04.config;
+package kr.co.ch05.config;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
