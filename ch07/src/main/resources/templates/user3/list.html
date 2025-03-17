@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user3 :: list</title>
+</head>
+<body>
+    <h3>user3 목록</h3>
+    <a th:href="@{/}">처음으로</a>
+    <a th:href="@{/user3/register}">등록하기</a>
+    <table border="1">
+      <tr>
+        <th>아이디</th>
+        <th>이름</th>
+        <th>생년월일</th>
+        <th>휴대폰</th>
+        <th>주소</th>
+        <th>관리</th>
+      </tr>
+      <tr>
+        <td>sds</td>
+        <td>sdasd</td>
+        <td>asdsad</td>
+        <td>asdsad</td>
+        <td>fdfdfd</td>
+        <td>
+          <a th:href="@{/user2/modify}">수정</a>
+          <a th:href="@{/user2/delete}">삭제</a>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>
