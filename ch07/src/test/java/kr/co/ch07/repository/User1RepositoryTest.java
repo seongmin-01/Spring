@@ -1,5 +1,7 @@
 package kr.co.ch07.repository;
 
+import kr.co.ch07.entity.Child;
+import kr.co.ch07.entity.Parent;
 import kr.co.ch07.entity.User1;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
