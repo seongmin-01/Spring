@@ -41,6 +41,10 @@ public class Article {
         - entity가 조회될때 관계설정된 엔티티가 조회되는 타이밍 전략
         - 1:1, N:1은 즉시로딩(Eager) 전략
         - 성능 문제로 즉시로딩대신 Lazy 전략 권장
+        
+        추가 연구과제
+        - N+1 문제 이해하기
+        - 고아객체 문제 이해하기
     */
 
     @ManyToOne(fetch = FetchType.LAZY)
