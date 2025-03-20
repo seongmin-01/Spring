@@ -183,7 +183,7 @@ class ShopRepositoryTest {
                         )
                 )
                 .from(qOrder)
-                .where(qOrder.orderPrice.goe(40000))
+                .where(qOrder.orderPrice.goe(String.valueOf(40000)))
                 .groupBy(qOrder.customer.custId)
                 .having(qOrder.customer.custId.count().goe(1))
                 .fetch();
